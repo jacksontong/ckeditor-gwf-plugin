@@ -59,7 +59,7 @@ CKEDITOR.plugins.add('ckeditor-gwf-plugin',
             var css = document.createElement('link');
             css.setAttribute('type', 'text/css');
             css.setAttribute('rel', 'stylesheet');
-            css.setAttribute('href', CKEDITOR.basePath + 'plugins/ckeditor-gwf-plugin/style.css');
+            css.setAttribute('href', CKEDITOR.plugins.getPath('ckeditor-gwf-plugin') + '/style.css');
             document.body.appendChild(css);
 
             var popup = document.createElement('div');
