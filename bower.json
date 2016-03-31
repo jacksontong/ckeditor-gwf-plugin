@@ -1,0 +1,22 @@
+{
+  "name": "ckeditor-gwf-plugin",
+  "homepage": "https://github.com/tongtoanbs/ckeditor-gwf-plugin",
+  "authors": [
+    "Jackson Tong <jackson@snapfrozen.com.au>"
+  ],
+  "description": "Plugin for CKEditor to add GoogleWebFonts support.",
+  "main": "plugin.js",
+  "moduleType": [],
+  "keywords": [
+    "gwf",
+    "ckeditor-gwf-plugin"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
